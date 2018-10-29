@@ -1,7 +1,8 @@
 ---
 title: Le Wagon - Middleman
 ---
-
+<%= partial "layouts/banner" %>
+<%= partial "layouts/cards" %>
 <div id="home">
   <div class="home-content">
     <%= image_tag "logo.png", width: "200" %>
@@ -9,7 +10,8 @@ title: Le Wagon - Middleman
       Middleman is now running!
     </p>
     <p class="about">
-      <%= link_to "More about this template", "about.html" %>
+      <%= link_to "Find out about the team", "team.html" %>
+      <%= link_to "The origional creator's of the template", "about.html" %>
     </p>
   </div>
 </div>
